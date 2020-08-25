@@ -1,11 +1,42 @@
+:root {
+  --corners: 5px;
+  --back-color: #ffeecc;
+}
+
 body {
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2015%2Faug%2F17%2Fthe-100-best-novels-written-in-english-the-full-list&psig=AOvVaw3zPLvWDJ6pDSiObnE_LUGs&ust=1598395518682000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCc0L71tOsCFQAAAAAdAAAAABAE");
+  background-color: #b3d9ff;
 }
 
 .paragraph-text {
-  font-family: garamond;
+  font-family: monospace;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0px 30px 0px 30px;
+  background-color: var(--back-color);
+  border-radius: var(--corners);
 }
 
 h1 {
   color: red;
+  text-align: center;
+  font-size: 48px;
+  
 }
+
+button {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 28px 5px 28px;
+}
+
+button:hover {
+background-color: red;
+color: white;
+}
+
+.lists {
+  display: inline-block;
+  background-color: var(--back-color);
+  border-radius: var(--corners);
+}
+
